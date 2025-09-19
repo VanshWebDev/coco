@@ -5,6 +5,8 @@ import { Progress } from "./ui/progress";
 import { BookOpen, CheckCircle, Clock, Star } from "lucide-react";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
 import { useNavigate } from "react-router-dom";
+import { useDispatch } from "react-redux";
+import { category } from "@/features/counter/counterSlice";
 
 interface Lesson {
   id: string;
@@ -27,8 +29,10 @@ interface LessonsProps {
 export function Lessons({ lessons, onStartLesson }: LessonsProps) {
   const categories = [...new Set(lessons.map((lesson) => lesson.category))];
   const navigate = useNavigate();
+  const dispatch = useDispatch();
 
   const startLsn = (name:string) => {
+    dispatch(category(name));
     navigate("lesson");
   };
 

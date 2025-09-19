@@ -97,7 +97,7 @@ export const studyData = [
         completed: false,
         points: 50,
         image:
-            "https://images.unsplash.com/photo-1592833159155-c4b65e8d7d96?w=1080&q=80",
+            "https://cdn.pixabay.com/photo/2017/03/13/07/34/photovoltaic-2138992_1280.jpg",
         category: "Energy",
     },
     {
@@ -111,7 +111,7 @@ export const studyData = [
         completed: false,
         points: 55,
         image:
-            "https://images.unsplash.com/photo-1602002418816-5e8f2a9fc2d1?w=1080&q=80",
+            "https://cdn.pixabay.com/photo/2025/08/08/16/21/wind-energy-9762992_1280.jpg",
         category: "Energy",
     },
     {
@@ -125,7 +125,7 @@ export const studyData = [
         completed: false,
         points: 65,
         image:
-            "https://images.unsplash.com/photo-1593629717355-1d4b1ac92a61?w=1080&q=80",
+            "https://cdn.pixabay.com/photo/2017/07/23/11/46/waterfall-2531194_1280.jpg",
         category: "Energy",
     },
     {
@@ -169,7 +169,7 @@ export const studyData = [
         completed: false,
         points: 45,
         image:
-            "https://images.unsplash.com/photo-1508873699372-7aeab60b44b0?w=1080&q=80",
+            "https://cdn.pixabay.com/photo/2013/07/13/12/45/woman-160281_1280.png",
         category: "Waste Management",
     },
     {
@@ -183,7 +183,7 @@ export const studyData = [
         completed: false,
         points: 70,
         image:
-            "https://images.unsplash.com/photo-1581091870620-7d04c1b5f7a0?w=1080&q=80",
+            "https://cdn.pixabay.com/photo/2024/12/17/08/54/ai-generated-9272471_640.jpg",
         category: "Waste Management",
     },
     {
@@ -197,7 +197,7 @@ export const studyData = [
         completed: false,
         points: 55,
         image:
-            "https://images.unsplash.com/photo-1598515214023-38e9d7e4c812?w=1080&q=80",
+            "https://cdn.pixabay.com/photo/2014/10/12/19/47/green-waste-486011_1280.jpg",
         category: "Waste Management",
     },
     {
@@ -211,7 +211,7 @@ export const studyData = [
         completed: false,
         points: 95,
         image:
-            "https://images.unsplash.com/photo-1581093588401-5a6c61f7db17?w=1080&q=80",
+            "https://cdn.pixabay.com/photo/2024/09/30/10/13/ai-generated-9085460_640.jpg",
         category: "Waste Management",
     },
 
@@ -255,7 +255,7 @@ export const studyData = [
         completed: false,
         points: 75,
         image:
-            "https://images.unsplash.com/photo-1611080626919-7cf3c7c879c0?w=1080&q=80",
+            "https://cdn.pixabay.com/photo/2023/02/14/22/41/tree-frog-7790553_640.jpg",
         category: "Biodiversity",
     },
     {
@@ -269,7 +269,7 @@ export const studyData = [
         completed: false,
         points: 85,
         image:
-            "https://images.unsplash.com/photo-1597586131289-5c21fcf785db?w=1080&q=80",
+            "https://cdn.pixabay.com/photo/2019/06/14/09/05/ape-4273153_1280.jpg",
         category: "Biodiversity",
     },
     {

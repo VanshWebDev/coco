@@ -24,7 +24,7 @@ export default function App() {
 
   // Mock user data
   const userData = {
-    name: "Alex Chen",
+    name: "Aashish",
     ecoPoints: 2450,
     level: 7,
     school: "Green Valley High School",
@@ -232,7 +232,7 @@ export default function App() {
     },
     {
       id: "3",
-      name: "Alex Chen",
+      name: "Aashish",
       school: "Green Valley High School",
       ecoPoints: 2450,
       rank: 3,
