@@ -16,6 +16,7 @@ import { Home, BookOpen, Target, Trophy, Award, Brain } from "lucide-react";
 import { toast } from "sonner";
 import { useState } from "react";
 import StartLessons from "./components/StartLessons";
+import Navbar from "./components/Navbar";
 
 export default function App() {
   const [leaderboardView, setLeaderboardView] = useState<
@@ -212,7 +213,7 @@ export default function App() {
   const leaderboard = [
     {
       id: "1",
-      name: "Emma Rodriguez",
+      name: "Kajal",
       school: "Eco Academy",
       ecoPoints: 3200,
       rank: 1,
@@ -222,7 +223,7 @@ export default function App() {
     },
     {
       id: "2",
-      name: "Liam Chen",
+      name: "Naman",
       school: "Green Valley High",
       ecoPoints: 2890,
       rank: 2,
@@ -242,7 +243,7 @@ export default function App() {
     },
     {
       id: "4",
-      name: "Sofia Martinez",
+      name: "Apeksha",
       school: "Sustainable Schools",
       ecoPoints: 2320,
       rank: 4,
@@ -252,7 +253,7 @@ export default function App() {
     },
     {
       id: "5",
-      name: "Marcus Johnson",
+      name: "ujjwal",
       school: "Eco Academy",
       ecoPoints: 2100,
       rank: 5,
@@ -372,6 +373,7 @@ export default function App() {
     <Router>
       <div className="min-h-screen bg-background">
         {/* Main Content */}
+        <Navbar/>
         <div className="container mx-auto px-4 py-6 max-w-md">
           <Routes>
             <Route path="/" element={<Dashboard userData={userData} />} />

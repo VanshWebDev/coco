@@ -3,6 +3,7 @@ import { Badge } from "./ui/badge";
 import { Progress } from "./ui/progress";
 import { Leaf, Star, Trophy, Users } from "lucide-react";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
+import Navbar from "./Navbar";
 
 interface DashboardProps {
   userData: {
